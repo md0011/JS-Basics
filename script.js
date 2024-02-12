@@ -1,6 +1,6 @@
 console.log("Hello World");
 
-let name = "Mayur";
+let name = "Mayur"; // String Literal
 console.log(name);
 
 // Cannot be a reserved keyword
@@ -9,9 +9,11 @@ console.log(name);
 // Cannot contain a space or hyphen (-)
 // Are case-sensitive
 
-let firstName = "Mayur";
-let lastName = "Dev";
-
 const interestRate = 0.3;
 // interestRate = 1;   --> Can't update a value of constant
 console.log(interestRate);
+
+let age = 30; // Number Literal
+let isApproved = false; // Boolean Literal
+let firstName = undefined;
+let selectedColor = null;
