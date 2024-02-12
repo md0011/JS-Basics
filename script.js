@@ -11,3 +11,7 @@ console.log(name);
 
 let firstName = "Mayur";
 let lastName = "Dev";
+
+const interestRate = 0.3;
+// interestRate = 1;   --> Can't update a value of constant
+console.log(interestRate);
