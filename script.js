@@ -28,3 +28,6 @@ employee.employeeName = "John";
 employee["id"] = 2;
 console.log(employee.employeeName);
 // ------------------------------------------------------------------------
+let selectedColors = ["red", "blue"];
+selectedColors[2] = 3;
+console.log(selectedColors.length);
