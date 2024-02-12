@@ -31,3 +31,16 @@ console.log(employee.employeeName);
 let selectedColors = ["red", "blue"];
 selectedColors[2] = 3;
 console.log(selectedColors.length);
+// ------------------------------------------------------------------------
+// Performing a task
+function greet(firstName, lastName) {
+  console.log("Hello, " + firstName + " " + lastName);
+}
+greet("Henry", "Creel");
+
+//  Calculating a value
+function square(num) {
+  return num * num;
+}
+console.log(square(5));
+// ------------------------------------------------------------------------
