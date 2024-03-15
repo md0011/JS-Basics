@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>setInterval</h1>
+    <button id="start" style="cursor: pointer">Start</button>
+    <button id="stop" style="cursor: pointer">Stop</button>
+    <p class="list"></p>
+  </body>
+  <script>
+    const sayDate = function (str) {
+      console.log(str, Date.now());
+    };
+
+    let intervalId;
+
+    document.querySelector("#start").addEventListener("click", (e) => {
+      intervalId = setInterval(sayDate, 1000, "Mayur Dev");
+    });
+
+    document.querySelector("#stop").addEventListener("click", (e) => {
+      clearInterval(intervalId);
+    });
+
+  </script>
+</html>
